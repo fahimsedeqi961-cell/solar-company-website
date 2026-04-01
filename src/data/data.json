@@ -1,0 +1,32 @@
+{
+  "trustSignals": [
+    {
+      "id": 1,
+      "icon": "Smile",
+      "numbers": "1500",
+      "title": "Happy Customers",
+      "description": "These are the experts of this company."
+    },
+    {
+      "id": 2,
+      "icon": "FolderCheck",
+      "numbers": "500+",
+      "title": "Projects Done",
+      "description": "These are the experts of this company."
+    },
+    {
+      "id": 3,
+      "icon": "Award",
+      "numbers": "100+",
+      "title": "Awards Win",
+      "description": "These are the experts of this company."
+    },
+    {
+      "id": 4,
+      "icon": "UserCog",
+      "numbers": "50+",
+      "title": "Expert Workers",
+      "description": "These are the experts of this company."
+    }
+  ]
+}
