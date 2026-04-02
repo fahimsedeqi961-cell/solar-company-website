@@ -28,5 +28,81 @@
       "title": "Expert Workers",
       "description": "These are the experts of this company."
     }
+  ],
+  "Services": [
+    {
+      "id": 1,
+      "image": "/src/assets/solarHero.jpg",
+      "title": "Service",
+      "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/solarHero.jpg",
+      "title": "Service",
+      "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
+    },
+    {
+      "id": 3,
+      "image": "/src/assets/solarHero.jpg",
+      "title": "Service",
+      "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
+    },
+    {
+      "id": 4,
+      "image": "/src/assets/solarHero.jpg",
+      "title": "Service",
+      "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
+    },
+    {
+      "id": 5,
+      "image": "/src/assets/solarHero.jpg",
+      "title": "Service",
+      "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
+    },
+    {
+      "id": 6,
+      "image": "/src/assets/solarHero.jpg",
+      "title": "Service",
+      "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
+    }
+  ],
+  "Projects": [
+    {
+      "id": 1,
+      "image": "/src/assets/solarHero.jpg",
+      "name": "Project Name",
+      "projectDesc": "This is is the description of the project."
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/solarHero.jpg",
+      "name": "Project Name",
+      "projectDesc": "This is is the description of the project."
+    },
+    {
+      "id": 3,
+      "image": "/src/assets/solarHero.jpg",
+      "name": "Project Name",
+      "projectDesc": "This is is the description of the project."
+    },
+    {
+      "id": 4,
+      "image": "/src/assets/solarHero.jpg",
+      "name": "Project Name",
+      "projectDesc": "This is is the description of the project."
+    },
+    {
+      "id": 5,
+      "image": "/src/assets/solarHero.jpg",
+      "name": "Project Name",
+      "projectDesc": "This is is the description of the project."
+    },
+    {
+      "id": 6,
+      "image": "/src/assets/solarHero.jpg",
+      "name": "Project Name",
+      "projectDesc": "This is is the description of the project."
+    }
   ]
 }

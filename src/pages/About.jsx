@@ -3,9 +3,8 @@ import { Check } from "lucide-react";
 
 export default function About() {
   return (
-    <section className=" bg-gray-50 overflow-hidden">
+    <section className=" bg-slate-100 overflow-hidden">
       <div className="grid grid-cols-1 md:grid-cols-2 items-stretch min-h-[600px]">
-
         {/* Image Container */}
         <div className="relative w-full h-[400px] lg:h-auto">
           <img
@@ -15,7 +14,6 @@ export default function About() {
           />
           <div className="absolute inset-0 bg-blue-900/10"></div>
         </div>
-
 
         {/* content */}
 
@@ -47,7 +45,7 @@ export default function About() {
                 className="flex items-center gap-4 group "
               >
                 <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-600 flex items-center justify-center text-white shadow-lg shadow-blue-200">
-                  <Check size={14} strokeWidht={3} />
+                  <Check size={14} strokeWidth={2.5} />
                 </div>
                 <p className="text-base text-slate-700 font-semibold group-hover:text-blue-600 transition-colors">
                   {text}
