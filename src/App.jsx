@@ -4,6 +4,8 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import WhyChoose from "./pages/WhyChoose";
 import Projects from "./pages/Projects";
+import GetAqoute from "./pages/FAQ";
+import TeamMembers from "./pages/Team";
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
       <Services />
       <WhyChoose />
       <Projects />
+      <GetAqoute />
+      <TeamMembers />
     </>
   )
 }

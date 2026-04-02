@@ -104,5 +104,25 @@
       "name": "Project Name",
       "projectDesc": "This is is the description of the project."
     }
+  ],
+  "TeamMembers": [
+    {
+      "id": 1,
+      "image": "/src/assets/team2.avif",
+      "name": "Full Name",
+      "introduction": "Introduction"
+    },
+    {
+      "id": 1,
+      "image": "/src/assets/team2.avif",
+      "name": "Full Name",
+      "introduction": "Introduction"
+    },
+    {
+      "id": 1,
+      "image": "/src/assets/team2.avif",
+      "name": "Full Name",
+      "introduction": "Introduction"
+    }
   ]
 }
