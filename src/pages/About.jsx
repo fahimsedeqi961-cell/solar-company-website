@@ -5,6 +5,7 @@ export default function About() {
   return (
     <section className=" bg-slate-100 overflow-hidden">
       <div className="grid grid-cols-1 md:grid-cols-2 items-stretch min-h-[600px]">
+
         {/* Image Container */}
         <div className="relative w-full h-[400px] lg:h-auto">
           <img

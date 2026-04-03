@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import GetAqoute from "./pages/FAQ";
 import TeamMembers from "./pages/Team";
 import Testimonial from "./pages/Testimonial";
+import Footer from "./components/layout/Footer";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <GetAqoute />
       <TeamMembers />
       <Testimonial />
+      <Footer />
     </>
   )
 }
