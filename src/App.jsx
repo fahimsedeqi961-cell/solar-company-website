@@ -6,6 +6,7 @@ import WhyChoose from "./pages/WhyChoose";
 import Projects from "./pages/Projects";
 import GetAqoute from "./pages/FAQ";
 import TeamMembers from "./pages/Team";
+import Testimonial from "./pages/Testimonial";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <Projects />
       <GetAqoute />
       <TeamMembers />
+      <Testimonial />
     </>
   )
 }

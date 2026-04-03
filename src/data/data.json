@@ -124,5 +124,43 @@
       "name": "Full Name",
       "introduction": "Introduction"
     }
+  ],
+  "Testimonial": [
+    {
+      "profile": "/src/assets/team2.avif",
+      "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
+      "clientName": "Client Name",
+      "profession": "Profession"
+    },
+    {
+      "profile": "/src/assets/team1.avif",
+      "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
+      "clientName": "Client Name",
+      "profession": "Profession"
+    },
+    {
+      "profile": "/src/assets/profile.jpg",
+      "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
+      "clientName": "Client Name",
+      "profession": "Profession"
+    },
+    {
+      "profile": "/src/assets/profile.jpg",
+      "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
+      "clientName": "Client Name",
+      "profession": "Profession"
+    },
+    {
+      "profile": "/src/assets/profile.jpg",
+      "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
+      "clientName": "Client Name",
+      "profession": "Profession"
+    },
+    {
+      "profile": "/src/assets/profile.jpg",
+      "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
+      "clientName": "Client Name",
+      "profession": "Profession"
+    }
   ]
 }
