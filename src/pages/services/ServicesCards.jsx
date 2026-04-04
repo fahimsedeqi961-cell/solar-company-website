@@ -1,6 +1,7 @@
-import services from "../data/data.json";
+import services from "../../data/data.json";
 import { Link } from "react-router-dom";
 import { ArrowRight, UserCog } from "lucide-react";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 
@@ -46,7 +47,7 @@ const cardVariants = {
   },
 }
 
-export default function Services() {
+export default function ServicesCards() {
   return (
     <section className="py-16 md:py-24 px-6 md:px-12 max-w-7xl mx-auto bg-white">
       {/* Services section title */}
@@ -104,7 +105,7 @@ export default function Services() {
             </div>
 
             <div className="pt-4">
-              <Link to="/" className="inline-flex gap-2 text-sm font-bols uppercase tracking-widest items-center group/link p-4 text-blue-600 hover:text-blue-700 ">
+              <Link to="/services" className="inline-flex gap-2 text-sm font-bols uppercase tracking-widest items-center group/link p-4 text-blue-600 hover:text-blue-700 ">
                 <span>Learn</span>
                 <ArrowRight size={18} className="group-hover/link:translate-x-2 transition-transform duration-300 " />
               </Link>

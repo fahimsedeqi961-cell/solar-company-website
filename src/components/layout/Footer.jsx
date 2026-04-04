@@ -51,11 +51,11 @@ export default function Footer() {
                                         size={16}
                                         className="text-blue-600 opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300"
                                     />
-                                    <Link
-                                        to={link.path}
+                                    <a
+                                        href={link.path}
                                         className="text-gray-200  group-hover:text-blue-500 transition-colors duration-300 ">
                                         {link.name}
-                                    </Link>
+                                    </a>
                                 </div>
                             )
                             )}

@@ -1,9 +1,12 @@
-import aboutImage from "../assets/aboutImage.jpg";
+import aboutImage from "../../assets/aboutImage.jpg";
 import { Check } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 export default function About() {
+  const navigate = useNavigate();
   return (
-    <section className=" bg-slate-100 overflow-hidden">
+    <section id="about"
+      className=" bg-slate-100 overflow-hidden">
       <div className="grid grid-cols-1 md:grid-cols-2 items-stretch min-h-[600px]">
 
         {/* Image Container */}
@@ -55,7 +58,10 @@ export default function About() {
             ))}
 
           </div>
-          <button className="btn-primary w-fit px-10 mt-4">
+          <button
+            onClick={() => navigate("/about")}
+
+            className="btn-primary w-fit px-10 mt-4">
             learn more
           </button>
 

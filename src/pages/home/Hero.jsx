@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Thumbs, EffectFade, Autoplay, Navigation } from 'swiper/modules';
 
@@ -13,10 +14,10 @@ const slides = [
 ];
 
 export default function HeroSlider() {
+  const navigate = useNavigate();
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [direction, setDirection] = useState(window.innerWidth > 768 ? 'vertical' : 'horizontal');
 
-  // Correctly update direction when screen resizes
   useEffect(() => {
     const handleResize = () => {
       setDirection(window.innerWidth > 768 ? 'vertical' : 'horizontal');
@@ -52,8 +53,14 @@ export default function HeroSlider() {
                   Harness the power of the sun to fuel your home and business with sustainable energy.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                  <button className="btn-primary text-sm md:text-base">Free Consultation</button>
-                  <button className="px-6 py-3 border border-white/50 text-white rounded-full font-bold text-sm md:text-base hover:bg-white/10 transition-all">
+
+                  <a href="#qoute"
+                    className="btn-primary text-sm md:text-base">
+                    Free Consultation
+                  </a>
+                  <button
+                    onClick={() => navigate("/projects")}
+                    className="px-6 py-3 border border-white/50 text-white rounded-full font-bold text-sm md:text-base hover:bg-white/10 transition-all">
                     Our Projects
                   </button>
                 </div>

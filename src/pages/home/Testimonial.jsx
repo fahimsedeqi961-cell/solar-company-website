@@ -1,4 +1,5 @@
-import clientInfo from "../data/data.json"
+import clientInfo from "../../data/data.json"
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Quote, ChevronRight, ChevronLeft } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";

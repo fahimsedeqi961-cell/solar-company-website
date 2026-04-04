@@ -1,4 +1,4 @@
-import WhyChooseImage from '../assets/solarHero2.jpg'
+import WhyChooseImage from '../../assets/solarHero2.jpg'
 import { Check, MessageCircle, UserCheck, Headphones, Award } from "lucide-react";
 
 const iconMap = {

@@ -1,5 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import teamMembers from "../data/data.json";
+import teamMembers from "../../data/data.json";
 import { Link } from "react-router-dom";
 
 const container = {
