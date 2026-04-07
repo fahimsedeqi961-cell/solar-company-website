@@ -108,19 +108,19 @@
   "TeamMembers": [
     {
       "id": 1,
-      "image": "/src/assets/team2.avif",
+      "image": "/team/team2.avif",
       "name": "Full Name",
       "introduction": "Introduction"
     },
     {
       "id": 1,
-      "image": "/src/assets/team2.avif",
+      "image": "/team/team2.avif",
       "name": "Full Name",
       "introduction": "Introduction"
     },
     {
       "id": 1,
-      "image": "/src/assets/team2.avif",
+      "image": "/team/team1.avif",
       "name": "Full Name",
       "introduction": "Introduction"
     }
