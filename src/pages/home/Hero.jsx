@@ -2,16 +2,18 @@ import { useState, useEffect } from "react"
 import { useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Thumbs, EffectFade, Autoplay, Navigation } from 'swiper/modules';
-import solarHero from "../../assets/solarHero.jpg";
+import solarHero from "../../assets/solarHero2.jpg";
+import solarHero3 from "../../assets/solarHero3.jpg";
+
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/thumbs';
 
 const slides = [
-  { id: 1, title: "Pioneers of Solar Energy", img: solarHero },
+  { id: 1, title: "Pioneers of Solar Energy", img: "/services/solarHero.jpg" },
   { id: 2, title: "Wind Power Solutions", img: solarHero },
-  { id: 3, title: "Renewable Futures", img: solarHero },
+  { id: 3, title: "Renewable Futures", img: solarHero3 },
 ];
 
 export default function HeroSlider() {

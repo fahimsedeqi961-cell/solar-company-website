@@ -32,37 +32,37 @@
   "Services": [
     {
       "id": 1,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/services/solarHero.jpg",
       "title": "Service",
       "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
     },
     {
       "id": 2,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/services/solarHero.jpg",
       "title": "Service",
       "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
     },
     {
       "id": 3,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/services/solarHero.jpg",
       "title": "Service",
       "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
     },
     {
       "id": 4,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/services/solarHero.jpg",
       "title": "Service",
       "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
     },
     {
       "id": 5,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/services/solarHero.jpg",
       "title": "Service",
       "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
     },
     {
       "id": 6,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/services/solarHero.jpg",
       "title": "Service",
       "description": "We provide efficient solar solutions to reduce energy costs and power your home with clean, renewable energy"
     }
@@ -70,37 +70,37 @@
   "Projects": [
     {
       "id": 1,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/projects/project1.webp",
       "name": "Project Name",
       "projectDesc": "This is is the description of the project."
     },
     {
       "id": 2,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/projects/project1.webp",
       "name": "Project Name",
       "projectDesc": "This is is the description of the project."
     },
     {
       "id": 3,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/projects/project2.webp",
       "name": "Project Name",
       "projectDesc": "This is is the description of the project."
     },
     {
       "id": 4,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/projects/project2.webp",
       "name": "Project Name",
       "projectDesc": "This is is the description of the project."
     },
     {
       "id": 5,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/projects/project1.webp",
       "name": "Project Name",
       "projectDesc": "This is is the description of the project."
     },
     {
       "id": 6,
-      "image": "/src/assets/solarHero.jpg",
+      "image": "/projects/project2.webp",
       "name": "Project Name",
       "projectDesc": "This is is the description of the project."
     }
@@ -127,37 +127,37 @@
   ],
   "Testimonial": [
     {
-      "profile": "/src/assets/team2.avif",
+      "profile": "/team/team2.avif",
       "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
       "clientName": "Client Name",
       "profession": "Profession"
     },
     {
-      "profile": "/src/assets/team1.avif",
+      "profile": "/team/team2.avif",
       "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
       "clientName": "Client Name",
       "profession": "Profession"
     },
     {
-      "profile": "/src/assets/profile.jpg",
+      "profile": "/team/team1.avif",
       "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
       "clientName": "Client Name",
       "profession": "Profession"
     },
     {
-      "profile": "/src/assets/profile.jpg",
+      "profile": "/team/team2.avif",
       "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
       "clientName": "Client Name",
       "profession": "Profession"
     },
     {
-      "profile": "/src/assets/profile.jpg",
+      "profile": "/team/profile.jpg",
       "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
       "clientName": "Client Name",
       "profession": "Profession"
     },
     {
-      "profile": "/src/assets/profile.jpg",
+      "profile": "/team/profile.jpg",
       "comment": "The service was outstanding from start to finish, with clear communication and professional support.The team delivered exactly what we needed on time and exceeded our expectations. Highly recommended for anyone looking for reliable and high-quality service.",
       "clientName": "Client Name",
       "profession": "Profession"

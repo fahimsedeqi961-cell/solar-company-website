@@ -1,5 +1,5 @@
 import SubHero from "../about/SubHero";
-import solarHero from "../../assets/solarHero.jpg";
+import solarHero from "../../assets/solarHero2.jpg";
 import ContactForm from "./ContactForm";
 
 export default function Contact() {
