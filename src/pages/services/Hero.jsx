@@ -1,5 +1,5 @@
 import SubHero from "../about/SubHero";
-import solarHero from "../../assets/solarHero2.jpg";
+import servicesHero from "../../assets/project1.webp";
 
 export default function ServicesHero() {
     return (
@@ -7,7 +7,7 @@ export default function ServicesHero() {
             <SubHero
                 title="Our Services"
                 currentPage="services"
-                bgImage={solarHero}
+                bgImage={servicesHero}
             />
         </>
     )

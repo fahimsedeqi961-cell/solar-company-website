@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import z from "zod";
 import { zodResolver } from '@hookform/resolvers/zod';
 
-const validationSchema = z.object({
+const Schema = z.object({
     name: z.string(),
     email: z.string().email("Invalid Email"),
     subject: z.string(),
@@ -16,7 +16,7 @@ export default function ContactForm() {
         handleSubmit,
         formState: { errors },
 
-    } = useForm({ resolver: zodResolver(validationSchema) });
+    } = useForm({ resolver: zodResolver(Schema) });
     return (
         <>
             <section className=" bg-slate-100 overflow-hidden mt-12 md:mt-24 mb-24">
@@ -43,7 +43,7 @@ export default function ContactForm() {
                         {/* Contact form */}
                         <form
                             onSubmit={handleSubmit}
-                            action="" className="w-full max-w-4xl mx-auto">
+                            className="w-full max-w-4xl mx-auto">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
                                 <input
                                     type="text"
@@ -100,7 +100,8 @@ export default function ContactForm() {
                             style={{ border: 0 }}
                             allowFullScreen
                             loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade">
+                            referrerPolicy="no-referrer-when-downgrade"
+                        >
 
                         </iframe>
                         <div className="absolute inset-0 bg-blue-900/10"></div>
