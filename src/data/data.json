@@ -70,13 +70,13 @@
   "Projects": [
     {
       "id": 1,
-      "image": "/projects/project1.webp",
+      "image": "/projects/project2.webp",
       "name": "Project Name",
       "projectDesc": "This is is the description of the project."
     },
     {
       "id": 2,
-      "image": "/projects/project1.webp",
+      "image": "/projects/project2.webp",
       "name": "Project Name",
       "projectDesc": "This is is the description of the project."
     },
@@ -94,7 +94,7 @@
     },
     {
       "id": 5,
-      "image": "/projects/project1.webp",
+      "image": "/projects/project2.webp",
       "name": "Project Name",
       "projectDesc": "This is is the description of the project."
     },
